@@ -1,0 +1,49 @@
+ C++ is known for its high performance and is often used in resource-intensive applications like game development and system programming.
+loading long apis in my project https://api-web.nhle.com/v1/skater-stats-leaders/20232024/2?categories=points&limit=50
+
+When vectors are in your brainstorming phase vectors can be only declared in C++.
+struct Player {
+    std::string firstName;
+    std::string lastName;
+    int points;
+};
+
+// Function declarations
+void printMenu();
+void getUpdatedList(std::vector<Player>& playerList);
+void showFantasyPoints(const std::vector<Player>& playerList);
+void shootoutGame(std::vector<Player>& playerList);
+void manuallyAdd(std::vector<Player>& playerList);
+void manuallyDelete(std::vector<Player>& playerList);
+
+C++ was created by Bjarne Stroustrup, a Danish computer scientist, in the early 1980s at Bell Labs.
+Stroustrup started working on C++ in 1979, aiming to add object-oriented programming features to the C language.
+The first standardized version of C++, known as C++98, was published in 1998. 
+This standardization helped ensure the consistency and portability of the language across different platforms.
+C++ has remained a widely used programming language, particularly in systems programming, game development, and performance-critical applications.
+
+C++ is a multi-paradigm programming language.
+C++ inherits its procedural programming capabilities from the C language.
+C++ is known for its strong support for object-oriented programming.
+It allows developers to define classes and objects, encapsulate data and behavior within those classes.
+C++ supports generic programming through templates.
+While C++ is not a pure functional programming language, it does incorporate some functional programming features.
+C++ provides low-level programming capabilities similar to those of C.
+This flexibility has contributed to C++'s widespread use in a variety of application domains, including system programming, game development, embedded systems, and more.
+
+The basic syntax of C++ is similar to that of the C programming language, as C++ was initially developed as an extension of C.
+// This is a single-line comment
+#include <iostream>
+int main() {
+    // Code goes here
+    return 0;
+}
+int float double char and bool are the data types
+has the normal operators
+
+C++ is Static Typing and Strong Typing
+User-Defined Types: C++ allows developers to create their own user-defined types using structures and classes.
+
+By default, vectors in C++ are mutable.
+
+Classes/Objects - Does your language have OOP capabilities?
